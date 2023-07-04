@@ -9,7 +9,7 @@ pipeline {
                     url: 'https://github.com/rajgit123/hello-world.git', // URL of your Git repository
                     credentialsId: 'your-credentials-id', // ID of the credentials configured in Jenkins for authentication
                     branch: 'master', // Branch to fetch from
-                    clean: true // Optional: clean workspace before fetching
+                   // clean: true // Optional: clean workspace before fetching
                 )
             }
         }
